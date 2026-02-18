@@ -15,7 +15,8 @@ public abstract class AbstractCrudService<T, ID> implements CrudService<T, ID> {
     @SuppressWarnings("unchecked")
     public AbstractCrudService(EntityManagerFactory emf) {
         this.emf = emf;
-        this.entityClass = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass())
+        this.entityClass = (Class<T>) ((ParameterizedType) getClass()
+                .getGenericSuperclass())
                 .getActualTypeArguments()[0];
     }
 
@@ -28,9 +29,7 @@ public abstract class AbstractCrudService<T, ID> implements CrudService<T, ID> {
             em.getTransaction().commit();
             return entity;
         } catch (Exception e) {
-            if (em.getTransaction().isActive()) {
-                em.getTransaction().rollback();
-            }
+            if (em.getTransaction().isActive()) em.getTransaction().rollback();
             throw e;
         } finally {
             em.close();
@@ -41,8 +40,7 @@ public abstract class AbstractCrudService<T, ID> implements CrudService<T, ID> {
     public Optional<T> findById(ID id) {
         EntityManager em = emf.createEntityManager();
         try {
-            T entity = em.find(entityClass, id);
-            return Optional.ofNullable(entity);
+            return Optional.ofNullable(em.find(entityClass, id));
         } finally {
             em.close();
         }
@@ -52,8 +50,7 @@ public abstract class AbstractCrudService<T, ID> implements CrudService<T, ID> {
     public List<T> findAll() {
         EntityManager em = emf.createEntityManager();
         try {
-            String jpql = "SELECT e FROM " + entityClass.getSimpleName() + " e";
-            TypedQuery<T> query = em.createQuery(jpql, entityClass);
+            TypedQuery<T> query = em.createQuery("SELECT e FROM " + entityClass.getSimpleName() + " e", entityClass);
             return query.getResultList();
         } finally {
             em.close();
@@ -68,9 +65,7 @@ public abstract class AbstractCrudService<T, ID> implements CrudService<T, ID> {
             em.merge(entity);
             em.getTransaction().commit();
         } catch (Exception e) {
-            if (em.getTransaction().isActive()) {
-                em.getTransaction().rollback();
-            }
+            if (em.getTransaction().isActive()) em.getTransaction().rollback();
             throw e;
         } finally {
             em.close();
@@ -82,15 +77,11 @@ public abstract class AbstractCrudService<T, ID> implements CrudService<T, ID> {
         EntityManager em = emf.createEntityManager();
         try {
             em.getTransaction().begin();
-            if (!em.contains(entity)) {
-                entity = em.merge(entity);
-            }
+            if (!em.contains(entity)) entity = em.merge(entity);
             em.remove(entity);
             em.getTransaction().commit();
         } catch (Exception e) {
-            if (em.getTransaction().isActive()) {
-                em.getTransaction().rollback();
-            }
+            if (em.getTransaction().isActive()) em.getTransaction().rollback();
             throw e;
         } finally {
             em.close();
@@ -102,3 +93,4 @@ public abstract class AbstractCrudService<T, ID> implements CrudService<T, ID> {
         findById(id).ifPresent(this::delete);
     }
 }
+
