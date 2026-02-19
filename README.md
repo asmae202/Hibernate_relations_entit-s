@@ -1,4 +1,4 @@
-
+<img width="702" height="319" alt="run utilisateurservice 7" src="https://github.com/user-attachments/assets/0a64d7b4-e0ad-4043-a58e-4065641d12c0" /><img width="685" height="335" alt="run utilisateurservice 15" src="https://github.com/user-attachments/assets/e972969c-2f9d-48ec-ad63-a3780be3d285" /><img width="685" height="342" alt="run utilisateurservice 14" src="https://github.com/user-attachments/assets/126583e9-da08-436e-bcf5-375d7b53513b" /><img width="659" height="338" alt="run utilisateurservice 13" src="https://github.com/user-attachments/assets/83a22547-b577-498f-88de-588c1f46e455" /><img width="647" height="333" alt="run utilisateurservice 12" src="https://github.com/user-attachments/assets/66e55ef7-b3d8-44c7-a43e-d94efa64f0c6" /><img width="691" height="343" alt="run utilisateurservice 11" src="https://github.com/user-attachments/assets/f6feffbe-ed36-4a59-8777-78c64141ba56" /><img width="662" height="343" alt="run utilisateurservice 10" src="https://github.com/user-attachments/assets/099e8e01-31e4-4ed0-9401-fbf24509ca79" /><img width="682" height="344" alt="run utilisateurservice 9" src="https://github.com/user-attachments/assets/9df7366f-d3c8-4de8-8d3d-02b82d63594c" /><img width="693" height="336" alt="run utilisateurservice 8" src="https://github.com/user-attachments/assets/a75b5a5f-698a-47a7-b469-30a6cfad4d25" />
 
 ## Objectif du projet
 
@@ -263,6 +263,36 @@ JavaFX
 
 <img width="689" height="317" alt="run salleservice18" src="https://github.com/user-attachments/assets/1bb9c2d4-852d-4a04-bff4-e7db0e8a76e2" />
 
+## Resultat de run UtilisateurServiceTest:
+<img width="701" height="338" alt="run utilisateurservice 1" src="https://github.com/user-attachments/assets/ee982b04-5d3f-480f-8076-28aef41b6d19" />
+
+<img width="686" height="341" alt="run utilisateurservice 2" src="https://github.com/user-attachments/assets/b328caee-0996-43d0-9d5e-24fb7196dc61" />
+
+<img width="694" height="350" alt="run utilisateurservice 3" src="https://github.com/user-attachments/assets/fcdfddb0-36e1-403b-8308-5dbc28b5d648" />
+
+<img width="686" height="332" alt="run utilisateurservice 4" src="https://github.com/user-attachments/assets/633daa19-8716-464b-a9d0-ccd7f5b842af" />
+
+<img width="695" height="347" alt="run utilisateurservice 5" src="https://github.com/user-attachments/assets/a5613f50-1e72-4b0c-aa0c-f02205996efe" />
+
+<img width="699" height="339" alt="run utilisateurservice 6" src="https://github.com/user-attachments/assets/6ea3b112-a8b7-48b2-a946-a2545bc49e3e" />
+
+<img width="702" height="319" alt="run utilisateurservice 7" src="https://github.com/user-attachments/assets/89e6d986-0920-4833-8f6d-03b9a7158a55" />
+
+<img width="693" height="336" alt="run utilisateurservice 8" src="https://github.com/user-attachments/assets/2f527e74-2195-4c5b-83bc-2e11b0a599d3" />
+
+<img width="682" height="344" alt="run utilisateurservice 9" src="https://github.com/user-attachments/assets/df883c33-deb5-4ab3-9c03-1f2f9dfa5461" />
+
+<img width="662" height="343" alt="run utilisateurservice 10" src="https://github.com/user-attachments/assets/316e3194-c612-40bc-a412-dbb569b6fdee" />
+
+<img width="691" height="343" alt="run utilisateurservice 11" src="https://github.com/user-attachments/assets/a48ed89f-1e1d-4ef8-997e-c1ef1d58c41e" />
+
+<img width="647" height="333" alt="run utilisateurservice 12" src="https://github.com/user-attachments/assets/0c4c7f2b-8850-484b-a431-565030ea119b" />
+
+<img width="659" height="338" alt="run utilisateurservice 13" src="https://github.com/user-attachments/assets/d550c9cc-ee35-4ba7-94d0-e383b816020e" />
+
+<img width="685" height="342" alt="run utilisateurservice 14" src="https://github.com/user-attachments/assets/f5352f6b-9ddd-489a-bd4f-d0bb1abe4ce9" />
+
+<img width="685" height="335" alt="run utilisateurservice 15" src="https://github.com/user-attachments/assets/f55fd659-0d5a-4879-8884-38de3724634d" />
 
 
 
