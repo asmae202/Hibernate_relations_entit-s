@@ -12,15 +12,14 @@ public class UtilisateurService extends AbstractCrudService<Utilisateur, Long> {
 
     private final EntityManagerFactory emf;
 
-    // ✅ Constructeur correct
+    // Constructeur correct
     public UtilisateurService(EntityManagerFactory emf) {
         super(emf);   // On passe la classe de l'entité
         this.emf = emf;
     }
 
-    // ================================
-    // 1️⃣ Rechercher par email
-    // ================================
+    //  Rechercher par email
+    
     public Optional<Utilisateur> findByEmail(String email) {
         EntityManager em = emf.createEntityManager();
         try {
@@ -35,9 +34,8 @@ public class UtilisateurService extends AbstractCrudService<Utilisateur, Long> {
         }
     }
 
-    // ================================
-    // 2️⃣ Compter réservations d’un utilisateur
-    // ================================
+    //  Compter réservations d’un utilisateur
+    
     public long countReservations(Long utilisateurId) {
         EntityManager em = emf.createEntityManager();
         try {
@@ -51,9 +49,7 @@ public class UtilisateurService extends AbstractCrudService<Utilisateur, Long> {
         }
     }
 
-    // ================================
-    // 3️⃣ Vérifier si email déjà utilisé
-    // ================================
+    //  Vérifier si email déjà utilisé
     public boolean emailExiste(String email) {
         return findByEmail(email).isPresent();
     }
