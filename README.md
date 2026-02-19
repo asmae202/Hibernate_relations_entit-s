@@ -266,6 +266,7 @@ JavaFX
 ## Resultat de run UtilisateurServiceTest:
 <img width="701" height="338" alt="run utilisateurservice 1" src="https://github.com/user-attachments/assets/ee982b04-5d3f-480f-8076-28aef41b6d19" />
 
+
 <img width="686" height="341" alt="run utilisateurservice 2" src="https://github.com/user-attachments/assets/b328caee-0996-43d0-9d5e-24fb7196dc61" />
 
 <img width="694" height="350" alt="run utilisateurservice 3" src="https://github.com/user-attachments/assets/fcdfddb0-36e1-403b-8308-5dbc28b5d648" />
