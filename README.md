@@ -186,6 +186,11 @@ Mise à jour automatique de la table
 On a relié :
 Interface + Services + Base de données
 
+## Resultat de l'interface graphique:
+
+<img width="314" height="374" alt="interface graphique lab2" src="https://github.com/user-attachments/assets/676fe28e-8272-4667-9131-bef61733d026" />
+
+
 ## Résumé Global du Projet
 📌 Couche 1 : Modèle
 
